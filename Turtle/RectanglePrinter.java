@@ -1,0 +1,14 @@
+import java.awt.Rectangle;
+
+public class RectanglePrinter
+{
+   public static void main(String[] args)
+   {
+      Rectangle r1 = new Rectangle(0, 0, 100, 50);
+      /* Your code goes here */
+      Rectangle r2 = new Rectangle(0, 0, 100, 50);
+      r2.grow(200,100);
+      System.out.println(r1);
+      System.out.println(r2);
+   }
+}
