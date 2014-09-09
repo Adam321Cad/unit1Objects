@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 //import java.awt.event.keylistener;
 
 //public class TurtleWorld 
-public class TurtleWorld implements KeyListener
+public class TurtleWorld
 {
     public static void main(String args[])
     {
