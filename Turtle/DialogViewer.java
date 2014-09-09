@@ -8,9 +8,9 @@ public class DialogViewer {
         boolean x = true;
         while (x == true) {
             String action = JOptionPane.showInputDialog("\nMy name is Hal!\nWhat would you like me to do?\n");
-            System.out.println(action);
+           // System.out.println(action);
             //action = "exit";
-            if (action == "exit"){
+            if (action.equals("exit")){
                 x = false;
                 
             } else{
